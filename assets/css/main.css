@@ -37,6 +37,12 @@ body {
     }
 }
 
+@media only screen and (max-width:1120px) {
+    .port-img{
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 768px) {
 
     .container {
@@ -120,15 +126,19 @@ header .row a,
 }
 
 .port-img {
-    height: 100%;
-    width: 40%;
-    ;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    height: 50%;
+    width: 50%;
+    border-radius: 80%;
+
+}
+
+.port-img-container {
     position: absolute;
     top: 100px;
-    right: 80px;
-    height: 100%;
-    background-image: url('https://cutewallpaper.org/21/the-rock-hd/Wwe-the-rock-Wallpapers-Free-by-ZEDGE_tm_.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    right: 200px;
+    height: 500px;
+    width: 500px;
 }
