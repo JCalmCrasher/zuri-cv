@@ -71,5 +71,23 @@
 ---------------------------------
 */
 .w-4 {
-    width: 1rem;
+    width: 100%;
+    max-width: 1rem;
+}
+
+.w-10 {
+    width: 100%;
+    max-width: 30rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-flow: column wrap;
+}
+
+.flex-row{
+    flex-flow: row wrap;
 }
