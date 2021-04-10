@@ -1,0 +1,56 @@
+/* 
+-------------------------------------------
+| Text Sizes
+-------------------------------------------
+*/
+
+.txt-sm {
+    font-size: small;
+}
+
+.txt-md {
+    font-size: medium;
+}
+
+.txt-lg {
+    font-size: larger;
+}
+
+.txt-xl {
+    font-size: x-large;
+}
+
+.txt-xxl {
+    font-size: xx-large;
+}
+
+.txt-sxxl {
+    font-size: 40px;
+}
+
+/* 
+-------------------------------------------
+| Font Weight
+-------------------------------------------
+*/
+.fnt-extralight  {
+    font-weight: 200;
+}
+
+.fnt-bold {
+    font-weight: 700;
+}
+
+.fnt-extrabold {
+    font-weight: 800;
+}
+
+/* 
+-------------------------------------------
+| Letter Spacing
+-------------------------------------------
+*/
+
+.ltr-spacing-wdr {
+    letter-spacing: 0.05em;
+}
