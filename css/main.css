@@ -1,0 +1,76 @@
+body {
+    background-color: var(--bg-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 100%;
+    color: var(--text-color);
+    padding: 25px;
+    overflow: hidden;
+    font-size: clamp(.2rem, -0.875rem + 8.333vw, .6em);
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+        width: 100%;
+        max-width: 768px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .container {
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 200px) {
+
+    .container {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+header a {
+    text-decoration: inherit;
+    color: var(--lazy-color);
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: color .4s;
+}
+
+header a:focus {
+    color: var(--text-color);
+}
+
+header a:hover {
+    color: var(--hover-color);
+}
+
+header a:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 20%;
+    position: relative;
+    background: var(--hover-color);
+    transition: width .3s ease 0s, left .3s ease 0s;
+    width: 0px;
+}
+
+header a:focus:after {
+    width: 100%;
+    left: 0;
+}
